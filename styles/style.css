@@ -130,10 +130,6 @@ footer a{
 
 @media (max-width:999px) {
 
-    body{
-        overflow-x:hidden ;
-    }
-
     main{
         overflow: hidden;
     }
