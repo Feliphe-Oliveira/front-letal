@@ -133,6 +133,10 @@ footer a{
     body{
         overflow-x:hidden ;
     }
+
+    main{
+        overflow: hidden;
+    }
     .nav-list{
         position: absolute;
         top: 20vh;
