@@ -13,9 +13,10 @@
     padding: 0px;
 }
 
-body,html{
+body{
     background-color: gray;
     font-family: var(--font01);
+    overflow-x: hidden;
 }
 
 
@@ -125,7 +126,7 @@ footer a{
 
 @media (max-width:999px) {
 
-    body,html{
+    body{
         overflow-x:hidden ;
     }
     .nav-list{
@@ -140,14 +141,10 @@ footer a{
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease ;
-        
-        
-       
+    
     }
 
-    nav{
-        overflow-x: hidden;
-    }
+    
 
     .nav-list li{
         margin: 0;
