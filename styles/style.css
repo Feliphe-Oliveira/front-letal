@@ -16,6 +16,11 @@
 body,html{
     background-color: gray;
     font-family: var(--font01);
+    overflow: hidden;
+}
+
+body,html::-webkit-scrollbar{
+    display: none;
 }
 
 main{
