@@ -145,6 +145,10 @@ footer a{
        
     }
 
+    nav{
+        overflow-x: hidden;
+    }
+
     .nav-list li{
         margin: 0;
         opacity: 0;
