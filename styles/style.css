@@ -130,9 +130,9 @@ footer a{
 
 @media (max-width:999px) {
 
-    main{
-        overflow: hidden;
-    }
+    
+    
+    
     .nav-list{
         position: absolute;
         top: 20vh;
