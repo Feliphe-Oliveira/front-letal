@@ -29,7 +29,7 @@ header{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    height: 8vh;
+    height: 20vh;
     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.238);
 }
 
@@ -57,7 +57,7 @@ h2{
 .nav-list{
     display: flex;
     list-style: none;
-    display: none;
+    
 }
 
 .nav-list li {
@@ -82,7 +82,7 @@ nav a:hover{
 }
 
 .mobile-menu{
-    display: block;
+    display: none;
     cursor: pointer;
 }
 
@@ -124,11 +124,11 @@ footer a{
 @media (max-width:999px) {
 
     body{
-        overflow-x: hidden;
+        overflow-x:auto ;
     }
     .nav-list{
         position: absolute;
-        top: 8vh;
+        top: 20vh;
         right: 0;
         width:50vw ;
         height: 92vh;
