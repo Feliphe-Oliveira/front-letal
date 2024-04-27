@@ -123,7 +123,7 @@ footer a{
 
 @media (max-width:999px) {
 
-    body{
+    body,html{
         overflow-x:hidden ;
     }
     .nav-list{
