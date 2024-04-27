@@ -29,7 +29,7 @@ header{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    height: 20vh;
+    height: 8vh;
     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.238);
 }
 
@@ -40,7 +40,7 @@ header a{
 
 h1{
     font-family: var(--font02);
-    font-size: 33px;
+    font-size: 29px;
     letter-spacing: 2px;
     transition: .5s;
     
@@ -127,7 +127,7 @@ footer a{
     }
     .nav-list{
         position: absolute;
-        top: 20vh;
+        top: 8vh;
         right: 0;
         width:50vw ;
         height: 92vh;
