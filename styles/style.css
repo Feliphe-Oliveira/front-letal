@@ -19,9 +19,6 @@ body,html{
     overflow: hidden;
 }
 
-body,html::-webkit-scrollbar{
-    display: none;
-}
 
 main{
     background-color: gray
