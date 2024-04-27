@@ -16,7 +16,6 @@
 body,html{
     background-color: gray;
     font-family: var(--font01);
-    overflow: hidden;
 }
 
 
@@ -125,6 +124,11 @@ footer a{
 
     body{
         overflow: hidden;
+    }
+
+    body::-webkit-scrollbar{
+        display: none;
+
     }
     
     .nav-list{
