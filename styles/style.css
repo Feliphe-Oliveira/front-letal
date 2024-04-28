@@ -2,10 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Protest+Revolution&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
 
 :root{
     --font01: arial, Helvetica, sans-serif;
     --font02: "Macondo Swash Caps", cursive;
+    --titulo2: "Protest Revolution", sans-serif;
+    --paragrafo:  "Caveat", cursive;
 }
 
 *{
@@ -34,7 +40,7 @@ header{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    height: 20vh;
+    height: 14vh;
     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.238);
 }
 
@@ -44,15 +50,17 @@ header a{
 }
 
 h1{
-    font-family: var(--font02);
-    font-size: 29px;
+    font-family: var(--titulo2);
+    font-size: 25px;
     letter-spacing: 2px;
     transition: .5s;
+    text-transform: uppercase;
+    
     
 }
 
 h2{
-    font-family:papyrus, sans-serif;
+    font-family:var(--titulo2);
     font-size: 1.5em;
     margin-left: 20px;
     padding: 20px;
@@ -113,6 +121,8 @@ section{
 p{
     margin: 10px;
     padding: 10px;
+    font-family: var(--paragrafo);
+    font-size: 1.3em;
 }
 
 footer{
@@ -135,18 +145,12 @@ footer a:hover{
 
     
     main{
-        overflow-x: hidden
-        
-        
-        
-        
-        
-        ;
+        overflow-x: hidden;
     }
     
     .nav-list{
         position: absolute;
-        top: 20vh;
+        top: 14vh;
         right: 0;
         width:50vw ;
         height: 92vh;
